@@ -1,0 +1,39 @@
+.navbar {
+    height: 45px;
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links{
+    flex-basis: 20%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background: rgb(89, 58, 138);
+    padding: 6px 15px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}

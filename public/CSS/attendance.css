@@ -1,0 +1,32 @@
+.qrcode-container{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode-container .qrcode-btn .gen-btn{
+    padding: 10px 15px;
+    background: var(--main-color);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.image-container{
+    width: 100%;
+    height: 99vh;
+    display: grid;
+    place-items: center;
+    display: none;
+}
+
+.image-container img{
+    width: 400px;
+    height: 400px;
+}

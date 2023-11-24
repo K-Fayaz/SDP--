@@ -1,0 +1,17 @@
+.details-display{
+    width: 80%;
+    padding: 20px;
+    background: red;
+    margin: auto;
+}
+
+.images-container{
+    width: 100%;
+    height: auto;
+}
+
+.images-container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
